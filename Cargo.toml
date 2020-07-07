@@ -1,0 +1,15 @@
+[package]
+name = "rssx"
+version = "0.1.0"
+authors = ["Timothy Andrew <mail@timothyandrew.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rss = "1.0"
+atom_syndication = "0.9"
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+clap = "2.33.1"
+futures = "0.3.5"
