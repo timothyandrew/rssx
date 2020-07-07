@@ -944,6 +944,7 @@ name = "rssx"
 version = "0.1.0"
 dependencies = [
  "atom_syndication",
+ "chrono",
  "clap",
  "futures",
  "reqwest",
